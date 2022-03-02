@@ -4,12 +4,14 @@
 
 :root {
     --bg: #1F2937;
+    --fg: #F9FAFB;
+    --gray: #E5E7EB;
 }
 
 body{
     margin: 0;
     padding: 0;
-    background: #fff;
+    background: var(--fg);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -17,8 +19,8 @@ body{
 
 /* Top level div, wraps the header bar, the image, and the text stuff together */
 .header {
-    background: #1F2937;
-    color: white;
+    background: var(--bg);
+    color: var(--fg);
 }
 
 /* TODO: remove this and clean */
@@ -27,6 +29,11 @@ h1 {
     font-size: 48px;
     font-weight: bolder;
     margin-bottom : -10px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--gray);
 }
 
 /* the header bar */
@@ -61,7 +68,6 @@ button {
     margin-right: 80px;
     text-align: left;
     align-items: flex-start;
-    justify-content: spac;
 }
 
 img{
@@ -102,6 +108,13 @@ img{
     padding: 60px;
     align-items: center;
     justify-content: center;
-    background: #E5E7EB;
+    background: var(--gray);
     text-align: right;
+}
+
+.footer {
+    background: var(--bg);
+    color: var(--fg);
+    padding: 30px;
+    text-align: center;
 }
