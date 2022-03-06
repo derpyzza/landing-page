@@ -3,9 +3,10 @@
 /* } */
 
 :root {
-    --bg: #1F2937;
-    --fg: #F9FAFB;
-    --gray: #E5E7EB;
+    --bg: #202020;
+    --fg: #FFFDE7;
+    --gray: #d4cdc1;
+    --accent: #C2976D;
 }
 
 body{
@@ -53,7 +54,7 @@ a:hover {
 }
 
 button {
-    background: #3B82F6;
+    background: #C2976D;
     width: 120px;
     padding: 10px;
     border: none;
@@ -62,7 +63,7 @@ button {
 }
 
 button:hover {
-    background-color: #3f6dd9;
+    background-color: #82674C;
 }
 
 .content{
@@ -99,7 +100,7 @@ img{
 }
 
 .info-box {
-    border: 4px solid #3B82F6;
+    border: 4px solid #82674C;
     border-radius: 20px;
     width: 200px;
     height: 200px;
@@ -150,7 +151,7 @@ h5 {
 
 .contact .box {
     display: flex;
-    background: #3B82F6;
+    background: #82674C;
     width: 60%;
     color: var(--fg);
     padding: 30px;
